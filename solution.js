@@ -10,11 +10,19 @@ for (let i = 0; i <= 20; i++) {
 
 for (let i = 1; i <= 5; i++) {
     if (i > 1) {
-    console.log(`There are ${i} bottle of beer on the table.`)
+        console.log(`There are ${i} bottle of beer on the table.`)
     } else {
-    console.log(`There is 1 bottle of beer on the table.`)  
+        console.log(`There is 1 bottle of beer on the table.`)  
     }
 }
 
 //3
 
+
+for (let i = 0; i <= 20; i++) {
+    if (i % 2 == 0) {
+        console.log(i, "is even");
+    } else {
+        console.log(i, "is odd");   
+    }
+}
